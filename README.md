@@ -97,22 +97,30 @@ Dataset ini adalah **data dummy** yang dirancang untuk merepresentasikan skenari
 
 | Kolom | Tipe | Deskripsi |
 |---|---|---|
-| `status` | string | Status transaksi (`cancelled` / `completed`) |
-| `cancel_stage` | string | Tahap saat cancel (`browse` / `payment` / `detail_voucher`) |
-| `seabank_user` | boolean | Apakah user menggunakan SeaBank |
-| `age_group` | string | Kelompok usia (`18-24` / `25-34` / `35-44` / `45+`) |
+| `transaction_id` | integer | ID unik setiap transaksi |
+| `user_id` | integer | ID unik user |
+| `transaction_date` | date | Tanggal transaksi (`DD/MM/YYYY`) |
 | `transaction_hour` | integer | Jam transaksi (0–23) |
+| `voucher_price` | integer | Harga voucher yang dibeli (Rupiah) |
+| `payment_method` | string | Metode pembayaran (`shopeepay` / `seabank` / `debit_card`) |
+| `age_group` | string | Kelompok usia (`18-24` / `25-34` / `35-44` / `45+`) |
 | `city` | string | Kota user (`Jakarta` / `Medan` / `Surabaya` / `Bandung` / `Makassar`) |
+| `seabank_user` | boolean | Apakah user terdaftar sebagai pengguna SeaBank (`TRUE` / `FALSE`) |
+| `shopeepay_balance` | integer | Saldo ShopeePay user (Rupiah) |
+| `registered_payment_methods` | integer | Jumlah metode pembayaran yang terdaftar |
+| `avg_monthly_transaction` | integer | Rata-rata transaksi bulanan user (Rupiah) |
+| `status` | string | Status transaksi (`completed` / `cancelled`) |
+| `cancel_stage` | string | Tahap saat cancel (`payment` / `browse` / `detail`) — kosong jika completed |
 
 **Statistik dataset:**
 - Total transaksi: **20.000**
 - Total cancellation: **4.324**
 - Jumlah kota: **5**
+- Metode pembayaran: **3** (ShopeePay, SeaBank, Debit Card)
 
 > ⚠️ Data ini adalah **data dummy** untuk keperluan demonstrasi portofolio.
 
 ---
-
 ## 🛠️ Tech Stack
 
 | Layer | Teknologi |
