@@ -1,16 +1,20 @@
-# React + Vite
+# 📊 BA Portfolio — ShopeeFood Deals Data Analysis
+Dashboard analisis data untuk validasi hipotesis payment friction pada ShopeeFood.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔗 Live Demo
+[https://ba-portfolio-dashboard.vercel.app](https://ba-portfolio-dashboard.vercel.app/))
 
-Currently, two official plugins are available:
+## 📌 Highlights
+- Analisis drop-off stage: 70% cancel di payment
+- Segmentasi user SeaBank vs Non-SeaBank
+- Pola waktu peak cancellation
+- Top 5 peak hour transaction
+- Distribusi per kota (5 kota besar Indonesia)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- React + Vite
+- Recharts
+- Data dummy untuk demonstrasi portofolio
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+*Irtanti Karmina Carona · Business Analyst Portfolio 2025*
