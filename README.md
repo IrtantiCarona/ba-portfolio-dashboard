@@ -136,8 +136,6 @@ Dataset ini adalah **data dummy** yang dirancang untuk merepresentasikan skenari
 ---
 
 ## 💻 Menjalankan Project Secara Lokal
-
-### Prasyarat
 Pastikan sudah terinstall:
 - [Node.js](https://nodejs.org/) v18 ke atas — cek: `node -v`
 - [Git](https://git-scm.com/) — cek: `git -v`
