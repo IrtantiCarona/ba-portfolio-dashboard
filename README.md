@@ -173,24 +173,6 @@ http://localhost:5173
 | Dashboard Analisis | `http://localhost:5173/` |
 | Wireframe | `http://localhost:5173/wireframe` |
 
-### Build untuk production
-```bash
-npm run build
-```
-Output tersimpan di folder `dist/`
-
----
-
-## 📁 Cara Menambah File ke Repository
-
-Setelah mengedit atau menambah file baru:
-```bash
-git add .
-git commit -m "deskripsi perubahan"
-git push
-```
-Vercel akan otomatis re-deploy setiap kali ada push ke branch `main`.
-
 ---
 
 ## 👩‍💼 Author
@@ -199,5 +181,4 @@ Vercel akan otomatis re-deploy setiap kali ada push ke branch `main`.
 Business Analyst Portfolio · 2025
 
 ---
-
 *Data dummy untuk keperluan demonstrasi portofolio.*
